@@ -1,0 +1,9 @@
+{
+	"name": "spotify-e2e-factory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0b45d2b7-d5a6-475c-bf4c-a81bada70c8d",
+		"tenantId": "b2f02e3c-e616-4e27-b9e4-26f018f6388f"
+	}
+}
