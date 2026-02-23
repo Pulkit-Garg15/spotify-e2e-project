@@ -1,0 +1,6 @@
+{
+	"name": "spotify_sql_incremental",
+	"properties": {
+		"annotations": []
+	}
+}
