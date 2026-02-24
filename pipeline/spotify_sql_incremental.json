@@ -69,11 +69,11 @@
 						"parameters": {
 							"container": "bronze",
 							"folder": {
-								"value": "@pipeline().parameters.tableName",
+								"value": "@toLower(pipeline().parameters.tableName)",
 								"type": "Expression"
 							},
 							"file": {
-								"value": "@concat(pipeline().parameters.tableName, '_', variables('current_time'))",
+								"value": "@toLower(concat(pipeline().parameters.tableName, '_', variables('current_time')))",
 								"type": "Expression"
 							}
 						}
