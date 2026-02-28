@@ -1,0 +1,22 @@
+# This is a Databricks asset bundle definition for spotify_e2e_project.
+bundle:
+  name: spotify_e2e_project
+  uuid: 266ee605-2c3f-495e-842a-15186f2741b7
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      host: https://adb-7405608148435779.19.azuredatabricks.net
+      root_path: /Workspace/Users/pulkitgarg1501@gmail.com/spotify_dab_deploy/.bundle_02282026/${bundle.name}/${bundle.target}
+    presets:
+      source_linked_deployment: false
+  prod:
+    mode: production
+    workspace:
+      host: https://adb-7405612411592802.2.azuredatabricks.net
+      root_path: /Workspace/Users/pulkitgarg1501@gmail.com/spotify_dab_deploy/.bundle_02282026/${bundle.name}/${bundle.target}
+    permissions:
+      - user_name: pulkitgarg1501@gmail.com
+        level: CAN_MANAGE

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "config": {
+    "bundle": {
+      "name": "spotify_e2e_project",
+      "target": "dev",
+      "mode": "development",
+      "git": {
+        "bundle_root_path": "."
+      }
+    },
+    "workspace": {
+      "file_path": "/Workspace/Users/pulkitgarg1501@gmail.com/spotify_dab_deploy/.bundle_02282026/spotify_e2e_project/dev/files"
+    },
+    "resources": {},
+    "presets": {
+      "source_linked_deployment": false
+    }
+  },
+  "extra": {
+    "git_folder_path": "/Workspace/Users/pulkitgarg1501@gmail.com/spotify_e2e_project"
+  }
+}
